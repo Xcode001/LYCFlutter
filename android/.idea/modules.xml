@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android.iml" filepath="$PROJECT_DIR$/android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-1.1.1/android/flutter_facebook_login.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_facebook_login-1.1.1/android/flutter_facebook_login.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.1.6/android/flutter_webview_plugin.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/flutter_webview_plugin-0.1.6/android/flutter_webview_plugin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.5/android/image_picker.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.4.5/android/image_picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.4.1/android/path_provider.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/path_provider-0.4.1/android/path_provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/share-0.5.2/android/share.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/share-0.5.2/android/share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.2/android/shared_preferences.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/shared_preferences-0.4.2/android/shared_preferences.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-3.0.2/android/url_launcher.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-3.0.2/android/url_launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/video_player-0.6.4/android/video_player.iml" filepath="$PROJECT_DIR$/../../../flutter/.pub-cache/hosted/pub.dartlang.org/video_player-0.6.4/android/video_player.iml" />
+    </modules>
+  </component>
+</project>

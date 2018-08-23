@@ -1,0 +1,76 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter --suppress-analytics build bundle --target=/Users/mav/Documents/AndroidProjects/flutter_lyc/lib/main.dart --snapshot=build/snapshot_blob.bin --depfile=build/snapshot_blob.bin.d --asset-dir=/Users/mav/Documents/AndroidProjects/flutter_lyc/ios/Flutter/flutter_assets --preview-dart-2
+
+## exception
+
+FileSystemException: FileSystemException: Cannot open file, path = 'build/frontend_server.d' (OS Error: No such file or directory, errno = 2)
+
+```
+#0      _File.open.<anonymous closure> (dart:io/file_impl.dart:368)
+#1      _rootRunUnary (dart:async/zone.dart:1134)
+#2      _CustomZone.runUnary (dart:async/zone.dart:1031)
+#3      _FutureListener.handleValue (dart:async/future_impl.dart:129)
+#4      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:633)
+#5      Future._propagateToListeners (dart:async/future_impl.dart:662)
+#6      Future._completeWithValue (dart:async/future_impl.dart:477)
+#7      Future._asyncComplete.<anonymous closure> (dart:async/future_impl.dart:507)
+#8      _rootRun (dart:async/zone.dart:1126)
+#9      _CustomZone.run (dart:async/zone.dart:1023)
+#10     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:949)
+#11     _microtaskLoop (dart:async/schedule_microtask.dart:41)
+#12     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50)
+#13     _runPendingImmediateCallback (dart:isolate-patch/dart:isolate/isolate_patch.dart:113)
+#14     _RawReceivePortImpl._handleMessage (dart:isolate-patch/dart:isolate/isolate_patch.dart:166)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v0.5.1, on Mac OS X 10.13.6 17G65, locale en-US)
+    • Flutter version 0.5.1 at /Users/mav/Documents/flutter
+    • Framework revision c7ea3ca377 (3 months ago), 2018-05-29 21:07:33 +0200
+    • Engine revision 1ed25ca7b7
+    • Dart version 2.0.0-dev.58.0.flutter-f981f09760
+
+[✓] Android toolchain - develop for Android devices (Android SDK 27.0.3)
+    • Android SDK at /Users/mav/Documents/sdk
+    • Android NDK at /Users/mav/Documents/sdk/ndk-bundle
+    • Platform android-27, build-tools 27.0.3
+    • ANDROID_HOME = /Users/mav/Documents/sdk
+    • Java binary at: /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home/bin/java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+    • All Android licenses accepted.
+
+[✓] iOS toolchain - develop for iOS devices (Xcode 9.2)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Xcode 9.2, Build version 9C40b
+    • ios-deploy 1.9.2
+    • CocoaPods version 1.5.3
+
+[✓] Android Studio
+    • Android Studio at /Applications/Android Studio 3.1 Preview.app/Contents
+    ✗ Flutter plugin not installed; this adds Flutter specific functionality.
+    ✗ Dart plugin not installed; this adds Dart specific functionality.
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+
+[✓] Android Studio (version 3.1)
+    • Android Studio at /Applications/Android Studio.app/Contents
+    • Flutter plugin version 26.0.1
+    • Dart plugin version 173.4700
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1024-b01)
+
+[✓] IntelliJ IDEA Community Edition (version 2017.3.4)
+    • IntelliJ at /Applications/IntelliJ IDEA CE.app
+    • Flutter plugin version 24.2.1
+    • Dart plugin version 173.4700
+
+[✓] Connected devices (3 available)
+    • Redmi Note 3              • 4PFEFQIRI7FEEUKN                     • android-arm64 • Android 5.0.2 (API 21)
+    • Android SDK built for x86 • emulator-5554                        • android-x86   • Android 8.0.0 (API 26) (emulator)
+    • iPhone X                  • 7B60A98B-5D6A-4FFE-9464-A2216B09A187 • ios           • iOS 11.2 (simulator)
+
+• No issues found!
+```

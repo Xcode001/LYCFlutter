@@ -1,0 +1,22 @@
+import 'package:flutter_lyc/base/data/pagination.dart';
+import 'package:flutter_lyc/ui/chat/data/message.dart';
+import 'package:json_annotation/json_annotation.dart';
+
+part 'chat.g.dart';
+
+@JsonSerializable()
+class Chat extends Object with _$ChatSerializerMixin{
+  Pagination pagination;
+  List<Message> data;
+
+  Chat(this.pagination, this.data);
+
+  factory Chat.fromJson(Map<String, dynamic> json) => _$ChatFromJson(json);
+
+  @override
+  String toString() {
+    return 'Chat{pagination: $pagination, data: $data}';
+  }
+
+
+}
